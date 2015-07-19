@@ -1,0 +1,37 @@
+{
+  "name": "is-mov",
+  "version": "0.0.0",
+ "description": " Check if a Buffer/Uint8Array is a MOV file",
+  "license": "MIT",
+  "repository": "arthurvr/is-mov",
+  "author": {
+    "name": "Arthur Verschaeve",
+    "email": "contact@arthurverschaeve.be",
+    "url": "arthurverschaeve.be"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "mov",
+    "movie",
+    "type",
+    "file",
+    "bool",
+    "uint8array",
+    "buffer",
+    "check",
+    "detect",
+    "is"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "read-chunk": "^1.0.1"
+  }
+}
