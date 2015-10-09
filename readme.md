@@ -13,8 +13,8 @@ $ npm install --save is-mov
 ## Usage
 
 ```js
-var isMov = require('is-mov');
-var read = require('fs').readFileSync;
+const isMov = require('is-mov');
+const read = require('fs').readFileSync;
 
 isMov(read('pony.mov'));
 //=> true
